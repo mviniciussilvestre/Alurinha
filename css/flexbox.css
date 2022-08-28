@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around; /*Espaço em volta dos elementos*/
-    width: 70%;¨
+    width: 70%;
     margin: 5%;
 }
 
@@ -35,4 +35,23 @@
     /*flex-wrap: wrap; Quebrar as colunas */
     flex-flow: column wrap; /*Substitui os comandos de cima */
     height: 260px;
+}
+
+.conteudoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap; /*Quebrar para a proxima linha*/
+}
+
+.conteudoPrincipal-cursos-link {
+    width: 23%;
+    margin: 1%;
+}
+
+/*Tirando as margens dos elementos a esquerda e direita*/
+.conteudoPrincipal-cursos-link:nth-child(4n) {
+    margin-right: 0;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+    margin-right: 0;
 }
