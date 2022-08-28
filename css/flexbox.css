@@ -3,3 +3,36 @@
     align-items: center; /*Posisiona os elementos no centro*/
     justify-content: space-between; /*Inseere espaco padrao entre os elementos*/
 }
+
+.cabecalhoPrincipal-nav {
+    display: flex;
+}
+
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /*Espaço em volta dos elementos*/
+    width: 70%;¨
+    margin: 5%;
+}
+
+.rodapePrincipal-contatoForm {
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    /*flex-direction: column; Posiciona os elementos em coluna*/
+    /*flex-wrap: wrap; Quebrar as colunas */
+    flex-flow: column wrap; /*Substitui os comandos de cima */
+    height: 260px;
+}
