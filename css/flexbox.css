@@ -58,7 +58,6 @@
 
 /*Configuração Mobile*/
 @media(max-width: 768px){
-
     .cabecalhoPrincipal-nav {
         flex-direction: column;
     }
@@ -97,5 +96,9 @@
 
     .rodapePrincipal-contatoForm-fieldset {
         justify-content: center;
+    }
+
+    .cabecalhoPrincipal-nav-link-app {
+        order: -1; /*Modifica a ordem de prioridade da lista*/
     }
 }
